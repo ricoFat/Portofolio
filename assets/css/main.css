@@ -6,6 +6,50 @@
 @import url('portfolio.css');
 @import url('contact.css');
 
+@media only screen and (max-width:1210px){
+
+    .logo
+    {
+        position: relative;
+        text-transform: capitalize; 
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 650;
+        padding: 7px 14px;
+    }
+
+    .logo a span
+    {
+        font-family: 'Clicker Script', cursive;
+        font-size: 30px;
+        color: red
+    }
+    
+    .logo a::before
+    {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-bottom: 5px solid red;
+        border-left: 5px solid red;
+        bottom: 20;
+        left: 0;
+    }
+    
+    .logo a::after
+    {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-top: 5px solid red;
+        border-right: 5px solid red;
+        top: 0;
+        right: 0;
+    }
+    
+}
 
 @media only screen and (max-width:600px){
 
