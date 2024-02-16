@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/c56fbe3aa8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header" >
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><span>K</span>am's<span>W</span>eb <span>D</span>esign</a>
+                </div>
+              <!-- <img src="" alt="Logo" class="logo">  --> 
+                <ul id="sidemenu">
+                    <li><a href="#header"> <i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UX-UI Designer | Développeur Logiciel</p>
+                <h1>Mon nom est Erick Kamchape</h1>
+            </div>
+        </div>
+    </div>
+    <!--************* About section *****************-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/img/header.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">À propos de moi</h1>
+                    <p>
+                        Bienvenue dans mon portfolio!</br>
+                        Je suis passionné par la création d'expériences numériques exceptionnelles en tant que concepteur UX-UI et développeur de logiciels. Avec une approche axée sur l'utilisateur et une expertise en SEO, je m'efforce de concévoir des interfaces intuitives et performantes qui captivent l'audience tout en assurant une présence en ligne optimale. </br>Explorez mes projets pour découvrir comment je donne vie à vos idées, du concept à la réalité numérique.</br> Prêt à collaborer pour créer quelque chose de génial?</br>
+                        Faisons connaissance et explorons les possibilités infinies du monde numérique.
+                    </p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Compétences</p>
+                        <p class="tab-links " onclick= "openTab('experience')">Expérience</p>
+                        <p class="tab-links" onclick="openTab('education')">Éducation</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Conception UX-UI</span><br> Création d'interfaces utilisateur attrayantes et intuitives pour optimiser l'expérience utilisateur.</li>
+                            <li><span>Développement Web</span><br> Développement d'applications web pour Android et iOS</li>
+                            <li><span>Développement locgiciel</span><br> Programmation des solutions logicielles éfficaces et performantes.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li><span>UX-UI</span><br>Conception Web</li>
+                            <li><span>Développement Web</span><br> Développement d'applications web</li>
+                            <li><span>Développement d'applications</span><br>Développement d'applications Android et iOS</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Université du Québec À Montréal </span><br> Baccaleauréat en sciences appliquées - Génie Logicielle</li>
+                            <li><span>Université du Québec À Montréal</span><br>Certificat en Developpement Logiciel</li>
+                            <li><span>Collège de Maisonneuve</span><br>A.E.C - Création et développement des sites</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--****************** Services section ***********************-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Nos services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque cupiditate, mollitia nihil nam maiores est fuga corrupti asperiores at consequuntur itaque repellat reiciendis labore, voluptas totam assumenda! Ratione, neque repellendus!
+                    </p>
+                    <a href="">En savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UX-UI Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque cupiditate, mollitia nihil nam maiores est fuga corrupti asperiores at consequuntur itaque repellat reiciendis labore, voluptas totam assumenda! Ratione, neque repellendus!
+                    </p>
+                    <a href="">En savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque cupiditate, mollitia nihil nam maiores est fuga corrupti asperiores at consequuntur itaque repellat reiciendis labore, voluptas totam assumenda! Ratione, neque repellendus!
+                    </p>
+                    <a href="">En savoir plus</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--*****************Portfolio******************-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Nos réalisations</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/img/1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            The app connect you to taleneted people around  the world.
+                            Download it from play store
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/img/musicApp.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>
+                            The app connect you to taleneted people around  the world.
+                            Download it from play store
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/img/onlineStore.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping APp</h3>
+                        <p>
+                            The app connect you to taleneted people around  the world.
+                            Download it from play store
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"  class="btn">Voir plus</a>
+        </div>
+    </div>
+    <!-- ********************** Contact ****************-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-envelope"></i> info@kamwebdesign.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 438-831-8284</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Nom">
+                        <input type="email" name="email" placeholder="Courriel">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            copyright &copy Kamchape Web 
+        </div>
+    </div>
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
