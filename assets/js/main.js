@@ -15,6 +15,7 @@ ScrollReveal({
   distance: "80px",
   duration: 2000,
   delay: 200,
+  easing: 'ease-out'
 });
 
 ScrollReveal().reveal(".header-text,.sub-title", { origin: "top" });
