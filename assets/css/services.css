@@ -18,6 +18,7 @@
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, tranform 0.5s;
+
 }
 
 .services-list div i
@@ -43,6 +44,7 @@
 
 .services-list div:hover
 {
-    background: #ff004f;
+    background: linear-gradient(to right top, #ff004f, #45212d);
     transform: translateY(-10px);
+    border: 2px solid #fff;
 }

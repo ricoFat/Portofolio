@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .about-col-1
@@ -27,6 +28,11 @@
     flex-basis: 60%;
 }
 
+/* .about-col-2 p
+{
+    font-size: 1.6rem;
+}
+ */
 .sub-title
 {
     font-size: 60px;

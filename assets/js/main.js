@@ -1,6 +1,16 @@
+
+
+var typed = new Typed('.multiple', {
+    strings:[ " Conception UX | UI", " Développement logiciel", "Développement Web et applications mobiles"],
+    typeSpeed: 100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+});
+
 var tabLinks = document.getElementsByClassName("tab-links");
 var tabContents = document.getElementsByClassName("tab-contents");
-var sidemenu = document.getElementById("sidemenu")
+var sidemenu = document.getElementById("sidemenu");
 
 function openTab(tabname) 
 {
