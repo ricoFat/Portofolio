@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 
 .about-col-1
@@ -19,8 +18,26 @@
 }
 .about-col-1 img
 {
-    width: 100%;
-    border-radius: 15px;
+    /* width: 100%; */
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 2px inset #ff004f ;
+    animation: animimg 4s ease-in-out infinite;
+}
+
+@keyframes animimg
+{
+    0%{
+        transform: translateY(0%);
+    }
+
+    50%{
+        transform: translateY(-3rem);
+    }
+    100%{
+        transform: translateY(0%);
+    }
 }
 
 .about-col-2

@@ -54,15 +54,15 @@
   .logo {
     position: relative;
     text-transform: capitalize;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1;
     font-weight: 600;
     padding: 7px 14px;
   }
 
   .logo a span {
     font-family: "Clicker Script", cursive;
-    font-size: 30px;
+    font-size: 20px;
     color: red;
   }
 
@@ -94,7 +94,7 @@
   }
 
   .header-text h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   nav .fas {
     display: block;
@@ -139,6 +139,16 @@
   .about-col-2 {
     font-size: 14px;
   }
+
+  .about-col-1 img
+{
+    /* width: 100%; */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px inset #ff004f ;
+    animation: animimg 4s ease-in-out infinite;
+}
 
   .tab-links {
     font-size: 16px;
